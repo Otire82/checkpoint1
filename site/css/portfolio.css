@@ -117,6 +117,8 @@ p {
 .skills {
   display: flex;
   justify-content: space-around;
+  /************************Tache 6************************/
+  flex-direction: row-reverse;
 }
 .column {
   width: 55%;
