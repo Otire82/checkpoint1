@@ -99,20 +99,7 @@ p {
   height: auto;
   border-radius: 50%;
 }
-/************************Tache 3************************/
-@media screen and (max-width:700px) {
-  .desktop{
-    display: none;
-  }
-  /************************Tache 5************************/
-  .skills {
-    flex-direction: column;
-  }
-  .column {
-    min-width: 100%;
-    padding: 0 0;
-  }
-}
+
 /************************Tache 4************************/
 .skills {
   display: flex;
@@ -127,4 +114,28 @@ p {
 /************************Tache 7************************/
 .disabled  {
   opacity: 0.3;
+}
+/************************Tache 8************************/
+.projects {
+  text-align:  center;
+}
+
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/************************Tache 3************************/
+@media screen and (max-width:700px) {
+  .desktop{
+    display: none;
+  }
+  /************************Tache 5************************/
+  .skills {
+    flex-direction: column-reverse;
+  }
+  .column {
+    min-width: 100%;
+    padding: 0 0;
+  }
 }
