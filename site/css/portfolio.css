@@ -45,13 +45,13 @@
 }
 
 .column:first-child {
-  border-bottom-left-radius: 0px;
-  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .column:last-child {
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 .column ul {
@@ -104,4 +104,13 @@ p {
   .desktop{
     display: none;
   }
+}
+/************************Tache 4************************/
+.skills{
+  display: flex;
+  justify-content: space-around;
+}
+.column{
+  width: 55%;
+  border-radius: 5%;
 }
