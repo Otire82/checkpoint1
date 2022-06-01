@@ -80,8 +80,22 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
-/*Tache 1*/
- .menu a {
+/************************Tache 1************************/
+.menu  {
   display: flex;
   justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+}
+/************************Tache 2************************/
+.introduction {
+  text-align: center;
+}
+.introduction h3 {
+  padding-top: 10px;
+}
+.portrait {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
 }
