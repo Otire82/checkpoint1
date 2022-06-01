@@ -104,13 +104,22 @@ p {
   .desktop{
     display: none;
   }
+  /************************Tache 5************************/
+  .skills {
+    flex-direction: column;
+  }
+  .column {
+    min-width: 100%;
+    padding: 0 0;
+  }
 }
 /************************Tache 4************************/
-.skills{
+.skills {
   display: flex;
   justify-content: space-around;
 }
-.column{
+.column {
   width: 55%;
   border-radius: 5%;
 }
+/************************Tache ************************/
