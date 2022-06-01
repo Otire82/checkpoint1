@@ -80,3 +80,8 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+/*Tache 1*/
+ .menu a {
+  display: flex;
+  justify-content: flex-end;
+}
