@@ -14,6 +14,24 @@ function promptMe(){
     let currentName = document.querySelector('#name')
     let newName = prompt("Your name?");
      currentName.innerText = newName;
-     //newName.style.color = 'white';
+     //manque changement couleur name
+     //document.newName.style.color = 'white';
 };
+ /***************    JS    3   ***************/
+//pink-bg couleur  #750ff7 avec clic bouton
+//manque sur le footer
+let button1 = document.querySelector('#button');
+let element = document.querySelector('.pink-bg');
+let box = getComputedStyle(element);
+
+
+button1.addEventListener("click", function() {
+  changecolor('#750ff7');
+  
+}, false );
+function changecolor(code) {
+    element.style.backgroundColor = code;
+    box.style.backgroundColor = code;
+    
+ };
 
